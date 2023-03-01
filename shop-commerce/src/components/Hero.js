@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -8,7 +9,7 @@ function Hero() {
         <h2>Xioami 13 Pro</h2>
         <h5>Early Access Sale on 6th March at 12 Noon</h5>
         <p>Availbe at <span>₹69,999</span> </p>
-        <button>Buy Now</button>
+        <Link to="/Register"><button>Buy Now</button></Link>
     </section>
 
   )

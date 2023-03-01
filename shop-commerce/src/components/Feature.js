@@ -8,15 +8,15 @@ function Feature() {
             <h6>Xioami</h6>
         </div>
         <div class="fe-box">
-            <img src="different/phone2.png" alt=""/>
+            <img src="different/nothing.png" alt=""/>
             <h6>Nothing</h6>
         </div>
         <div class="fe-box">
             <img src="different/phone2.png" alt=""/>
-            <h6>OnePlus</h6>
+            <h6>Redmi</h6>
         </div>
         <div class="fe-box">
-            <img src="different/phone7.png" alt=""/>
+            <img src="different/iphone.png" alt=""/>
             <h6>Iphone</h6>
         </div>
         <div class="fe-box">
@@ -25,7 +25,7 @@ function Feature() {
         </div>
         <div class="fe-box">
             <img src="different/phone3.png" alt=""/>
-            <h6>Samsung</h6>
+            <h6>OnePlus</h6>
         </div>
     </section>
   )

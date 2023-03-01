@@ -3,7 +3,7 @@ import React from 'react'
 function Products2() {
   return (
     <section id="product1" class="section-p1">
-        <h2>Budget Friendly Deals</h2>
+        <h2>Flagship Killer</h2>
         <div class="pro-container">
             <div class="pro">
                 <img src="different/phone5.png" alt=""/>

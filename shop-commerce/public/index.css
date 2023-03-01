@@ -70,6 +70,7 @@
 
   body {
     width: 100%;
+    /* background-color: #d2dae2; */
   }
 
   /* Header start  */
@@ -79,7 +80,7 @@
     align-items: center;
     justify-content: space-between;
     padding:20px 80px;
-    background-color: #d5d5d5;
+    /* background-color: #d5d5d5; */
     box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
     z-index: 999;
     position: sticky;
@@ -256,7 +257,7 @@
   }
 
   #product1 .pro:hover{
-   box-shadow:20px 20px 30px rgba(0,0,0,0.06);
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
   #product1 .pro img{
@@ -289,7 +290,7 @@
    padding-top: 7px;
    font-size: 15px;
    font-weight: 700;
-   color: #088178;
+   color: #191919;
   }
 
   #product1 .pro .cart{
@@ -488,6 +489,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   background-color: #191919;
   }
 
   footer .col{
@@ -502,25 +504,29 @@
   }
 
   footer h4{
+   color: white;
    font-size: 14px;
    padding-bottom: 20px;
   }
 
   footer p{
+   color: white;
    font-size: 13px;
    margin: 0 0 8px 0;
   }
 
   
   footer p{
+   color: white;
    font-size: 13px;
    margin: 0 0 8px 0;
   }
 
   footer a{
+   color: white;
    font-size: 13px;
    text-decoration: none;
-   color: #222;
+   /* color: #222; */
    margin-bottom: 10px;
   }
 
@@ -529,7 +535,7 @@
    }
 
    footer .follow i{
-      color: #465b52;
+      color: #ffffff;
       padding-right: 4px;
       cursor: pointer;
    }

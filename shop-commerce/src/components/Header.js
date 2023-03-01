@@ -2,12 +2,30 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 function Navbar() {
+  const barHandler = (e) =>{
+    const bar= document.getElementById('bar');
+const close= document.getElementById('close');
+const nav=document.getElementById('navbar');
+
+
+if(bar){
+    bar.addEventListener('click',()=>{
+        nav.classList.add('active');
+    })
+}
+
+if(close){
+    close.addEventListener('click',()=>{
+        nav.classList.remove('active');
+    })
+}
+}
   return (
     <section id="header">
-    <a href="#"><img src="different/logo.png" class="logo" alt=""/></a>
+    <Link to="/"><img src="different/logo.png" class="logo" alt=""/></Link>
     <div>
         <ul id="navbar">
-            <li><Link to="/Header">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/Contact ">Contact</Link></li>
             <li><Link to="/Register">Login/Register</Link></li>
             <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
@@ -15,8 +33,8 @@ function Navbar() {
         </ul>
     </div>
     <div id="mobile">
-        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-        <i id="bar" class="fas fa-outdent"></i>
+        <Link to="/"><i class="far fa-shopping-bag"></i></Link>
+        <i id="bar" class="fas fa-outdent" onClick={barHandler}></i>
     </div>
 </section>
 

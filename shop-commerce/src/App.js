@@ -2,7 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import Shop from "./pages/Shop"
 import Contact from './pages/Contact';
-import RegisterHandler from './components/Register';
+import RegisterHandler from './pages/RegisterHandler';
 
 import {
   createBrowserRouter,
